@@ -1,0 +1,116 @@
+*{
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Rubik';font-size: 22px;
+}
+
+.header {
+    height: 10vh;
+    background-color: #1F342F;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 0px 20px;
+}
+
+.header-button {
+    color: #1F342F;
+    background-color: #21D19F;
+    border: 5px solid #21D19F;
+    border-radius: 20px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 40px;
+    width: 160px;
+    font-size: 26px;
+}
+
+.header-button:hover {
+    background-color: white;
+    border: 5px solid #21D19F;
+}
+
+.main-h1 {
+    font-size: 80px;
+    text-shadow: #21D19F -5px 3px 0px;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    gap: 50px;
+}
+
+.main-menu-button-back {
+    color: #21D19F;
+    background-color: #1F342F;
+    border: 5px solid #1F342F;
+    border-radius: 35px;
+    display: flex;
+    text-align: left;
+    align-items: center; 
+    justify-content: left;
+    padding-left: 15px;
+    height: 70px;
+    width: 340px;
+    font-size: 46px;
+    margin-left: -20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-menu-button-back:hover{
+    color: white;
+}
+
+.main-menu-button {
+    color: #1F342F;
+    background-color: #21D19F;
+    border: 5px solid #21D19F;
+    border-radius: 35px;
+    display: flex;
+    text-align: center;
+    align-items: center; 
+    justify-content: center;
+    height: 70px;
+    width: 340px;
+    font-size: 38px;
+    margin-top: -70px;
+    margin-left: 20px;
+    text-decoration: none;
+
+}
+
+.main-menu-button:hover {
+    background-color: white;
+    border: 5px solid #21D19F;
+    
+}
+
+.footer {
+    height: 10vh;
+    background-color: #1F342F;
+    display: flex;
+}
+
+.fractals-workspace {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 24px 72px;
+    justify-items: center;
+}
+
+.fractals-workspace-element{
+    background-color: #1F342F;
+    border-radius: 10px;
+    width: 550px;
+}
